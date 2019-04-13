@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 
-#Load Haar-cascade face and nose classifiers.
+#Load Haar-cascade nose classifiers.
 nose_cascade = cv2.CascadeClassifier("./nose_cascade.xml")
 
 #Load mustache image.
